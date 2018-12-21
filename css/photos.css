@@ -1,0 +1,29 @@
+.center > img {
+    width: 100%;
+}
+
+.photorow {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.photocol {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 1px;
+}
+
+.photocol img {
+  margin-top: 2%;
+  vertical-align: middle;
+  width: 99%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .photocol {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
