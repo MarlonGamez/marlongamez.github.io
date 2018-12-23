@@ -15,8 +15,9 @@ a {
 .center {
     margin: auto;
     width: 75%;
-    display: block;
+    /*display: block;*/
 }
+
 
 .header {
     margin: 6vh auto 3vh auto;
@@ -32,7 +33,7 @@ a {
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     line-height: 1.0;
 }
 
@@ -69,4 +70,28 @@ a {
 
 .current > a {
     color: #afa;
+}
+
+.footer {
+    margin: 6vh auto 3vh auto;  
+}
+
+.footer > hr {
+    height: 1px;
+    background-color: white;
+    margin: 0 0 2vh 0;
+}
+
+.socials {
+    margin: 0 auto;
+    width: 245px;
+}
+
+.social {
+    margin: 1%;
+    width: 70px;
+}
+
+.social > img {
+    width: inherit;
 }
