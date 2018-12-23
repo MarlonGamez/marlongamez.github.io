@@ -83,6 +83,7 @@ a {
 }
 
 .socials {
+    float: right;
     margin: 0 auto;
     width: 245px;
 }
